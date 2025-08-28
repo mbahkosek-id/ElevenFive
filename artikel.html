@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ElevenFiveNews - Semua Artikel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #fff;
+      border-bottom: 2px solid #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #0073e6;
+    }
+    .articles-container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    .articles-container h2 {
+      margin-bottom: 20px;
+    }
+    .article {
+      display: flex;
+      background: white;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+    .article:hover {
+      transform: scale(1.02);
+    }
+    .article img {
+      width: 220px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .article .content {
+      padding: 15px;
+    }
+    .article .content h3 {
+      margin: 0 0 10px 0;
+    }
+    .article .content h3 a {
+      text-decoration: none;
+      color: #000;
+    }
+    .article .content h3 a:hover {
+      color: #0073e6;
+    }
+    .article .content p {
+      margin: 0;
+      color: #555;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="https://files.catbox.moe/5rwdy9.png" alt="ElevenFiveNews Logo">
+    </div>
+    <nav>
+      <a href="beranda.html">Beranda</a>
+      <a href="artikel.html">Artikel</a>
+      <a href="profile.html">Profile</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+  </header>
+
+  <div class="articles-container">
+    <h2>Semua Artikel</h2>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/400x300/?school,energy" alt="">
+      <div class="content">
+        <h3><a href="#">Sekolah di Indonesia Hadapi Tantangan Energi Listrik</a></h3>
+        <p>Sekolah-sekolah menghadapi masalah biaya listrik yang semakin tinggi. Solusi mulai dari panel surya hingga manajemen energi menjadi perhatian utama...</p>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/400x300/?solar,school" alt="">
+      <div class="content">
+        <h3><a href="#">Sekolah Mulai Pasang Panel Surya</a></h3>
+        <p>Banyak sekolah kini beralih ke panel surya untuk mengurangi ketergantungan listrik konvensional.</p>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/400x300/?classroom,energy" alt="">
+      <div class="content">
+        <h3><a href="#">Optimasi Lampu Hemat Energi</a></h3>
+        <p>Penerapan lampu LED hemat energi terbukti mengurangi biaya listrik sekolah hingga 40%.</p>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/400x300/?green,energy" alt="">
+      <div class="content">
+        <h3><a href="#">Gerakan Hemat Energi di Sekolah</a></h3>
+        <p>Siswa diajak ikut serta dalam gerakan hemat energi melalui kegiatan harian sederhana.</p>
+      </div>
+    </div>
+
+    <div class="article">
+      <img src="https://source.unsplash.com/400x300/?technology,education" alt="">
+      <div class="content">
+        <h3><a href="#">Teknologi Pintar untuk Menghemat Energi</a></h3>
+        <p>Sekolah mulai menggunakan sensor pintar dan sistem otomatisasi untuk mengurangi pemborosan listrik.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2025 ElevenFiveNews. Semua Hak Dilindungi.
+  </footer>
+
+</body>
+</html>
